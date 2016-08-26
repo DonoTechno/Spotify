@@ -1,0 +1,509 @@
+body{
+
+  background: url(../gallery/cover.png),linear-gradient(50deg,red 0,purple 100%);
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  box-sizing: padding-box;
+}
+
+.navbar{
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  border-radius: 0;
+  padding: 17px 20px;
+}
+
+
+.navbar .logo-spotify{
+  padding: 0;
+}
+
+
+.navbar .logo-spotify img{
+  width: 150px;
+  object-fit: contain;
+}
+
+.navbar .navbar-nav li .menu-basic {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav li .menu-basic:hover {
+  color: rgba(68,204, 167, 0.5)
+}
+
+#carousel-example-generic, .carousel-inner, .item{
+  width: 100%;
+  height: 100vh; /* TAILLE SLIDER */
+  margin-bottom: 60px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+
+.caption-item{
+  height: 100vh; /* TAILLE SLIDER */
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.btn{
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+.btnp{
+  border-radius: 50px;
+  border: 2px solid white;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+
+
+.item a{
+  font-size: 20px;
+}
+
+.item a p{
+  color: transparent;
+}
+
+.ordre .btn btn-primary{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/*.flechebas{
+display: flex;
+justify-content: center;
+font-size: 70px;
+flex-direction: column;
+
+}
+
+.fleche .left carousel-control{
+font-size: 70px;
+
+}
+*/
+
+
+
+.second{
+  font-size: 18px;
+  text-align: center;
+  color: #7CE6E1;
+}
+
+.second:hover{
+  color: #86A39E;
+}
+
+.arrow{
+  font-size: 40px;
+  color: #7CE6E1;
+  border-radius: 100px;
+  border: 3px solid white;
+  width: 50px;
+  height: 50px;
+  transition: 0.6s;
+
+}
+
+.arrow:hover{
+  color: #86A39E;
+  -moz-transform:scale(1.5);
+  transition: 0.6s;
+}
+
+
+.img-container .img-responsive{
+  background-image: url(../gallery/musicplayer.png);
+
+
+}
+.img-container .img-responsive:hover{
+  background-image: url(../gallery/musicplayer.png);
+  opacity: 0.5;
+
+
+
+}
+
+
+.third{
+  background-color: white;
+  padding-bottom: 175px;
+}
+
+
+.divers1 h1{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin: 0 0 .75em;
+  color: #7c25f8;
+}
+
+.divers1 h2{
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #7c25f8;
+
+
+}
+
+.divers1 p{
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+
+}
+
+.divers h1{
+  font-size:100px;
+  color: white;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin: 0 0 .75em;
+}
+
+.divers h2{
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #9BF0E1;
+}
+
+.divers p {
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  color: white;
+}
+
+.img-container div{
+  padding:0;
+}
+
+.container{
+
+
+  margin-top: 120px;
+}
+
+/*.third img:hover{
+back
+}
+*/
+.fourth{
+
+
+
+}
+
+.fourth img{
+  background-image: (../gallery/contouriphone.png);
+}
+
+.fourth h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin: 0 0 .75em;
+}
+
+.fourth h2{
+  color: #9BF0E1;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.fourth p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1.5em;
+  color: white;
+}
+
+/*.imageiphone .contouriphonee{
+width: 100%;
+height:auto;
+background-image: url(../gallery/contouriphone.png);
+
+}
+
+/*.calvinn{
+background-image: url(../gallery/iphonecalvin.jpg);
+}
+*/
+
+.iphone {
+  background-image: url(../gallery/contouriphone.png);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  transform: rotate(30deg);
+  margin-top: -270px;
+}
+
+
+.iphonecalvin{
+  margin-top: 80px;
+  margin-left: 4px;
+}
+
+
+.iphone2 {
+  background-image: url(../gallery/contouriphone.png);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  transform: rotate(30deg);
+  margin-top: -830px;
+  margin-left: 900px;
+}
+
+.disco{
+  margin-top: 80px;
+  margin-left: 6px;
+}
+
+.iphone3 {
+  background-image: url(../gallery/contouriphone.png);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  transform: rotate(30deg);
+  margin-top: -160px;
+  margin-left: 510px;
+}
+
+.weekly{
+  margin-top: 80px;
+  margin-left: 6px;
+}
+
+.iphone4 {
+  background-image: url(../gallery/contouriphone.png);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  transform: rotate(30deg);
+  margin-top: -1120px;
+  margin-left: 1150px;
+}
+
+
+.crowd{
+  margin-top: 80px;
+  margin-left: 6px;
+}
+
+.devices{
+  background-color: #232323;
+  position: relative;
+  padding: 120px 0;
+
+
+}
+
+.devicespic{
+  padding: 0;
+}
+
+.devices h4{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+.lists{
+  margin: 5px;
+  padding: 5px;
+
+
+}
+.lists li{
+  display: inline-block;
+  color: white;
+
+}
+
+.nexus {
+  background-image: url(../gallery/nexus.png);
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-left: 940px;
+  margin-top: -960px;
+
+}
+
+.etch{
+  margin-top: 60px;
+  margin-left: -11px;
+}
+
+.offre{
+  text-align: center;
+}
+
+#util{
+  color: #9BF0E1;
+}
+
+#util:hover{
+  color:#5BCAC5;
+}
+
+#fami{
+  color: #9BF0CF
+}
+
+#fami:hover{
+  color: #45E3C6;
+}
+
+.divers h3{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer{
+  background-color: black;
+  margin-top: 40px;
+
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.spotiti img{
+  width: 132px;
+  margin-left: 40px;
+}
+
+
+.company h3{
+  color: #919496;
+  font-size: 12px;
+  letter-spacing: .08em;
+  margin: 50px 0 22px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.company ul{
+  font-size: 16px;
+  font-weight: 500;
+  padding: .1875em 0;
+  margin-bottom: .75em;
+  color:white;
+  list-style: none;
+  line-height: 1.5;
+}
+
+.company ul li:hover{
+  color: #9BF0E1;
+}
+
+
+.iconn{
+  font-size: 25px;
+}
+
+.iconn i {
+  color: #fff;
+}
+
+.iconn i:hover{
+  color: #9BF0E1;
+}
+
+.rond{
+  border-radius: 100px;
+  border: 2px solid #2E2F33;
+  width: 60px;
+  height:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  background-color: #2E2F33;
+}
+
+
+.end{
+  margin: 60px;
+}
+
+.end ul{
+  display: inline-flex;
+  list-style: none;
+  color: #919496;
+}
+
+.end ul li{
+  padding-right: 27px;
+
+
+}
+
+.end ul li:hover{
+  color:#9BF0E1;
+}
+
+.france{
+  display: inline-block;
+  list-style: none;
+  margin-right: -50px;
+  color: #919496;
+  text-align: right;
+  margin-top: 50px;
+
+}
+
+
+.france ul li{
+  list-style: none;
+}
+
+
+
+
+#blue:hover{
+  color: #9BF0E1;
+}
+
+
+@media screen and (max-width:900px) {
+  .caption-item, .divers h1{
+  font-size: 55px;
+  }
+}
